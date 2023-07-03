@@ -15,3 +15,25 @@ I worked as an environmental engineer. This taught me: working with customers, c
 
 My second place of work: support in the support service. She gave me __great stress tolerance__, experience in informal communication with users, solving various non-standard tasks.
 ***
+## Education 
++ 2020 Samara State Technical University, Samara
+Institute of Oil and Gas Technologies, Environmental Protection and Rational Use of Natural Resources
++ 2022 Samara State Technical University, Samara
+Institute of Oil and Gas Technologies, Monitoring of territories with high anthropogenic load (master's degree)
++ Courses:
+    - SoloLern (HTML + CSS)
+    - Freecodecamp. Responsive Web Design
+    - __Now:__ rs_school
+***
+## Skills
++ HTML
++ CSS
++ JavaScript (beginner)
+***
+## Code example
+
+***
+## Language knowledge
++ English - A2
++ Russian - native
+*********
