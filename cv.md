@@ -1,10 +1,9 @@
 # Ulyana Lizunova
-Everyone ran and I ran. 
 ## Contact
 * Location: Yerevan, Armenia
 * Number: +374 055794716
 * Mail: ulyliz83@gmail.com
-* GitHub: [Ulyana Lizunova] (https://github.com/Nasmeshkaa)
+* GitHub: [Ulyana Lizunova](https://github.com/Nasmeshkaa)
 * Discord: @Nsmshk#0624
 ***
 ## About me
