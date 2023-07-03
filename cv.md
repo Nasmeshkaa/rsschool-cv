@@ -31,7 +31,11 @@ Institute of Oil and Gas Technologies, Monitoring of territories with high anthr
 + JavaScript (beginner)
 ***
 ## Code example
-
+```
+function multiply(a, b){
+  return a * b
+}
+```
 ***
 ## Language knowledge
 + English - A2
