@@ -8,114 +8,135 @@
 </head>
 
 <body>
-	<nav>
-		<div class="menu">
-			<div class="container">
-				<div class="menu__inner">
-					<div class="photo">
-						<img src="2.jpg" alt="Photo">
-					</div>
-					<ul class="nav">
-						<li><a href="#About">About me</a></li>
-						<li><a href="#Education">Education</a></li>
-						<li><a href="#Skills">Skills</a></li>
-						<li><a href="#Code">Code example</a></li>
-						<li><a href="#Language">Language</a></li>
-						<li><a href="#Contact">Contact</a></li>
-					</ul>
-				</div>
+<header class="header">
+	<div class="container">
+		<div class="header-container">
+			<div class="line">
+				<div class="burger__line"></div>
+				<div class="burger__line"></div>
+				<div class="burger__line"></div>
+			</div>
+			<div class="photo">
+			<img src="2.jpg" alt="Photo" class="header-photo">
+			</div>
+			<nav class="nav">
+				<ul class="menu">
+					<li class="menu-item"><a href="#about">About me</a></li>
+					<li class="menu-item"><a href="#education">Education</a></li>
+					<li class="menu-item"><a href="#skills">Skills</a></li>
+					<li class="menu-item"><a href="#code">Code example</a></li>
+					<li class="menu-item"><a href="#language">Language</a></li>
+					<li class="menu-item"><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="info">
+				<h1 class="title"> Ulyana Lizunova </h1>
+				<h2 class="prof">Front-end developer</h2>
 			</div>
 		</div>
-	</nav>
-	<header>
-		<h1> Ulyana Lizunova </h1>
-		<div class="prof">Future front-end developer</div>
-	</header>
-	<h2 id="About">About me</h2>
-	<main>
-		<p>The experience of my past work helps me to develop now. Or why am I studying: </p>
-		<p>I worked as an environmental engineer.
-			This taught me: working with customers,
-			creating projects,
-			working on non-standard deadlines,
-			the ability to quickly study information and apply it.
-			As well as experience in independent decision-making.</p>
-		<p>My second place of work: support in the support service.
-			She gave me great stress tolerance, experience in informal communication with users, solving various
-			non-standard tasks.</p>
-		<h2 id="Education">Education</h2>
-		<div id="university">
-			<ul>
-				<li>2020 Samara State Technical University, Samara
-					Institute of Oil and Gas Technologies, Environmental Protection and Rational Use of Natural Resources
-				</li>
-				<li>2022 Samara State Technical University, Samara
-					Institute of Oil and Gas Technologies, Monitoring of territories with high anthropogenic load (master's
-					degree)</li>
-			</ul>
-		</div>
-		<div id="courses">
-			<ul>
-				<li>SoloLern (HTML + CSS)</li>
-				<li>Freecodecamp. Responsive Web Design</li>
-				<li>Now: RS_SCHOOL</li>
-			</ul>
-		</div>
-	</main>
-	<h2 id="Skills">Skills</h2>
-	<div class="subheading">
-		<ul>
-			<li>
-				<div class="skill_name">
-					HTML
-				</div>
-				<div class="progress">
-					<div class="grayback_html"></div>
-					<div class="strips"></div>
-				</div>
-			</li>
-			<li>
-				<div class="skill_name">
-					CSS
-				</div>
-				<div class="progress">
-					<div class="grayback_css"></div>
-					<div class="strips"></div>
-				</div>
-			</li>
-			<li>
-				<div class="skill_name">
-					JavaScript
-				</div>
-				<div class="progress">
-					<div class="grayback_js"></div>
-					<div class="strips"></div>
-				</div>
-			</li>
-		</ul>
 	</div>
-	<h2 id="Code">Code example</h2>
-	<pre>
-	<code>function multiply(a, b){
-		return a * b
-	}</code>
-</pre>
-	<h2 id="Language">Language</h2>
-	<ul>
-		<li>English - A2</li>
-		<li>Russian - native</li>
-	</ul>
-	<h2 id="Contact">Contact</h2>
-	<div class="social">
-		<div class="location">Location: Yerevan, Armenia</div>
-		<div class="email"><a href="mailto:ulyliz83@gmail.com">Email</a></div>
-		<div class="discord"><a href="https://discordapp.com/users/491013863714586637/">Discord</a></div>
+</header>
+<div class="main-content">
+	<div class="container">
+		<aside class="aside">
+			<section class="education">
+				<h2 id="education">Education</h2>
+				<div class="education-place">Samara State Technical University, Samara</div>
+				<div class="education-prof">Environmental engineer	</div>
+			</section>
+			<section class="courses">
+				<h3>Courses</h3>
+				<div class="education-place">SoloLern (HTML + CSS)
+					Freecodecamp.Responsive Web Design
+					Now: RS_SCHOOL</div>
+				<div class="education-prof">Environmental engineer	</div>
+			</section>
+			<section class="skills" id="skills">
+				<h2>Skills</h2>
+				<div class="subheading container">
+					<ul>
+						<li>
+							<div class="skill-name">
+								HTML
+							</div>
+							<div class="progress">
+								<div class="grayback-html"></div>
+								<div class="strips"></div>
+							</div>
+						</li>
+						<li>
+							<div class="skill-name">
+								CSS
+							</div>
+							<div class="progress">
+								<div class="grayback-css"></div>
+								<div class="strips"></div>
+							</div>
+						</li>
+						<li>
+							<div class="skill-name">
+								JavaScript
+							</div>
+							<div class="progress">
+								<div class="grayback-js"></div>
+								<div class="strips"></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</aside>
+		<main class="main">
+			<section class="about" id="about">
+				<h2>About me</h2>
+				<div class="myself"><p>The experience of my past work helps me to develop now. Or why am I studying: </p>
+					<p>I worked as an environmental engineer.
+						This taught me: working with customers,
+						creating projects,
+						working on non-standard deadlines,
+						the ability to quickly study information and apply it.
+						As well as experience in independent decision-making.</p>
+					<p>My second place of work: support in the support service.
+						She gave me great stress tolerance, experience in informal communication with users, solving various
+						non-standard tasks.</p>
+					</div>
+			</section>
+			<section class="about-language">
+				<h2 id="language" class="language">Language</h2>
+				<ul>
+					<li class="language-item">English - A2</li>
+					<li class="language-item">Russian - native</li>
+				</ul>
+			</section>
+			<section class="code-example">
+				<h2 id="code" class="code">Code example</h2>
+				<pre class="pre">
+					<code>function multiply(a, b){
+					return a * b
+				}</code>
+			   </pre>
+			</section>
+		</main>
 	</div>
-	<footer>
-		CREATED IN 2023
-		<div class="git"><a href="https://github.com/Nasmeshkaa" target="_blank"> Github</a></div>
-		<div class="rs_school"><a href="https://rs.school/js-stage0/" target="_blank"> RS_SCHOOL </a> </div>
-	</footer>
+</div>
+<footer class="footer">
+	<div class="container">
+		<div class="footer-container">
+			<section class="contacts">
+				<h3 id="Contact">Contact</h3>
+				<div class="social">
+					<div class="location">Location: Yerevan, Armenia</div>
+					<div class="email"><a href="mailto:ulyliz83@gmail.com">Email</a></div>
+					<div class="discord"><a href="https://discordapp.com/users/491013863714586637/">Discord</a></div>
+				</div>
+			</section>
+			<div class="footer-info">
+				<div class="footer-date"> CREATED IN 2023</div> 
+				<div class="git"><a href="https://github.com/Nasmeshkaa" target="_blank"> Github</a></div>
+				<div class="rs_school"><a href="https://rs.school/js-stage0/" target="_blank"> RS_SCHOOL </a> </div>
+			</div>
+		</div>
+	</div>
+</footer>
 </body>
-
 </html>
