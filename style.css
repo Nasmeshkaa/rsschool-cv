@@ -160,8 +160,6 @@ h2 {
 }
 .about-language {
 	margin: 0 0 10px 0;
-	padding: 10px 0 0 30px;
-	
 }
 .language-item {
 	font-size: 18px;
@@ -175,16 +173,10 @@ h2 {
 .code-example .pre {
 	margin: 0;
 	display: flex;
-	align-self: center;
-	width: 60%;
+	align-self: right;
+	width: 20%;
 }
 
-.code-example .code {
-	width: 100%;
-	line-height: 22px;
-	padding: 0;
-	background-color: #ffffff;
-}
 .footer-container {
 	background-color: #005f76;
 	display: flex;
@@ -213,7 +205,6 @@ h2 {
 	color: rgb(255, 255, 255);
 	border-radius: 5px;
 	background-color: rgb(4, 46, 67);
-	width: 50px;
 }
 .rs_school {
 	display: flex;
@@ -224,13 +215,12 @@ h2 {
 	text-decoration: none;
 	padding: 5px 0;
 	position: relative;
-	
+	width: 100px;
 }
 .rs_school a:hover {
 	color: rgb(255, 255, 255);
 	border-radius: 5px;
 	background-color: rgb(4, 46, 67);
-	width: 70px;
 }
 
 .footer-date {
@@ -268,24 +258,24 @@ h2 {
 	text-decoration: none;
 	padding: 5px 0;
 	position: relative;
-	margin-right: 10px
+	margin-right: 10px;
+	width: 50px;
 }
 .discord a {
 	color: rgb(63, 204, 255);
 	text-decoration: none;
 	padding: 5px 0;
 	position: relative;
-	margin-right: 10px
+	margin-right: 10px;
+	width: 50px;
 }
 .email a:hover {
 	color: rgb(255, 255, 255);
 	border-radius: 5px;
 	background-color: rgb(4, 46, 67);
-	
 }
 .discord a:hover {
 	color: rgb(255, 255, 255);
 	border-radius: 5px;
 	background-color: rgb(4, 46, 67);
-	
 }
