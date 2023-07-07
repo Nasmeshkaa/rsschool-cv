@@ -3,82 +3,138 @@
 
 <head>
 	<meta charset="UTF-8">
-	<link rel="shortcut icon" href="12456.PNG" type="image/x-icon">
 	<link rel="stylesheet" href="style.css">
-	<title> Camorra </title>
+	<title>CV</title>
 </head>
 
-<body class="content">
-	<header>
-		<img src="Screenshot_1.PNG" alt="Логотип" width="200 px" height="200 px">
-		<!-- Логотип сайта -->
-		<nav id="menu">
-		  <!-- Меню -->
-			 <a href="/">Главная</a>
-		    <a href="#about">О нас</a>
-			<a href="/contacts">Контакты</a>
-		</nav>
-	 </header>	
-	 <aside>
-		<div>
-		  <a href="#">Необязательный пункт 1</a>
-		  <a href="#">Необязательный пункт 2</a>
-		  <a href="#">Необязательный пункт 3</a>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header-container">
+				<div class="line">
+					<div class="burger__line"></div>
+					<div class="burger__line"></div>
+					<div class="burger__line"></div>
+				</div>
+				<div class="photo">
+					<img src="2.jpg" alt="Photo" class="header-photo">
+				</div>
+				<div class="header-content">
+					<nav class="nav">
+						<ul class="menu">
+							<li class="menu-item"><a href="#about">About me</a></li>
+							<li class="menu-item"><a href="#education">Education</a></li>
+							<li class="menu-item"><a href="#skills">Skills</a></li>
+							<li class="menu-item"><a href="#code">Code example</a></li>
+							<li class="menu-item"><a href="#language">Language</a></li>
+							<li class="menu-item"><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+					<div class="info">
+						<h1 class="title"> Ulyana Lizunova </h1>
+						<div class="prof">Front-end developer</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	 </aside>
-	 <main>
-	<h1 title="заголовок первого уровня"> Ulyana Lizunova </h1>
-	<h2> Contact</h2>
-	<img src="https://sun9-west.userapi.com/sun9-61/s/v1/ig2/OfFrcKaeZBKVEQguOhR4xflOHKPCwvBd7ajF7QxSOef9yv7Maikm1ASkDIUKTBnouLfSKO_A25eAafe3FodunTIN.jpg?size=2362x2362&quality=95&type=album" alt="CAMORRA" width="200 px" height="200 px">
-	<section>
-	<p> Она позволяет развивать:</p>
-		<ul> <li> внимательность и память </li>
-		<li> логику и аналитические способности </li>
-		<li> самообладание и стрессоустойчивость </li> </ul>
-	</section>
-	<h3 id = "about">Спортивная мафия имеет собственную Федерацию и мировую сетку турниров, в которых принимают участие игроки нашего клуба.</h3>
-	<p> Игры проходят каждую неделю на маф-базе (ул. Ленинградская 77, комната 408), стоимость игрового вечера – 400Р. </p>
-	<section><p> Маф-клуб CAMORRA относится к структуре Портала 
-		<a href = "https://gomafia.pro/" target="_blank" title="мафияхуйня" > <strong>gomafia.pro</strong> </a> </p>
-	</section>
-		<section class="news">
-			<h2>About me</h2>
-	  
-			<article>
-			  <h3>Новость 1</h3>
-			  <p>Текст новости 1</p>
-			  <a href="#">Подробнее</a>
-			</article>
-	  
-			<article>
-			  <h3>Новость 2</h3>
-			  <p>Текст новости 2</p>
-			  <a href="#">Подробнее</a>
-			</article>
-	  
-			<article>
-			  <h3>Новость 3</h3>
-			  <p>Текст новости 3</p>
-			  <a href="#">Подробнее</a>
-			</article>
-		 </section>
-	</main>
-	<h4 id="nav"> Навигация в группе: </h4>
-	<ol> <li>Игровые вечера:
-		<ul> <li>#игровойвечер@</li> 
-			<li>#школамафии@camorra</li> </ul></li>
-		<li>Турниры клуба: 
-			<ul> <li>#битвааргументов@camorra</li>
-				<li>#зимнийкубок@camorra</li>
-				<li>#летнийкубок@camorra</li>
-				<li>#финалгода@camorra</li></ul> </li>
-		<li>Игроки клуба на выездных турнирах: #болеемзанаших@camorra </li>
-		<li>Информация и рейтинг: 
-			<ul><li>#рейтинг@camorra</li> 
-			<li>#правилаклуба@camorra </li>
-			<li>#маски@camorra </li></ul></li> </ol>
-		<h6><a href="#nav"> Навигация </a> </h6>
-		
+	</header>
+	<div class="main-content">
+		<div class="container">
+			<aside class="aside">
+				<section id="education" class="education">
+					<h2>Education</h2>
+					<div class="education-place">Samara State Technical University, Samara</div>
+					<div class="education-prof">Environmental engineer </div>
+				</section>
+				<section class="cours">
+					<h2>Courses</h2>
+					<ul class="cours-name">
+						<li class="solo">SoloLern (HTML + CSS)</li>
+						<li class="free">Freecodecamp.Responsive Web Design</li>
+						<li class="rs">Now: RS_SCHOOL</li>
+					</ul>
+				</section>
+				<section class="skills" id="skills">
+					<h2>Skills</h2>
+					<div class="subheading container">
+						<ul>
+							<li>
+								<div class="skill-name">
+									HTML
+								</div>
+								<progress class="progress" max="10" value="7">
+								</progress>
+							</li>
+							<li>
+								<div class="skill-name">
+									CSS
+								</div>
+								<progress class="progress" max="10" value="5">
+								</progress>
+							</li>
+							<li>
+								<div class="skill-name">
+									JavaScript
+								</div>
+								<progress class="progress" max="10" value="1">
+								</progress>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</aside>
+			<main class="main">
+				<section class="about" id="about">
+					<h2>About me</h2>
+					<div class="myself">
+						<p>The experience of my past work helps me to develop now. </p>
+						<p>I worked as an environmental engineer.
+							This taught me: working with customers,
+							creating projects,
+							working on non-standard deadlines,
+							the ability to quickly study information and apply it.
+							As well as experience in independent decision-making.</p>
+						<p>My second place of work: support in the support service.
+							She gave me great stress tolerance, experience in informal communication with users, solving
+							various
+							non-standard tasks.</p>
+					</div>
+				</section>
+				<section class="about-language">
+					<h2 id="language" class="language">Language</h2>
+					<ul>
+						<li class="language-item">English - A2</li>
+						<li class="language-item">Russian - native</li>
+					</ul>
+				</section>
+				<section class="code-example">
+					<h2 id="code" class="code">Code example</h2>
+					<pre class="pre">
+					<code>function multiply(a, b){return a * b }</code>
+			   </pre>
+				</section>
+			</main>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-container">
+				<section class="contacts">
+					<h2 id="contact">Contact</h2>
+					<div class="social">
+						<div class="location">Location: Yerevan, Armenia</div>
+						<div class="email"><a href="mailto:ulyliz83@gmail.com">Email</a></div>
+						<div class="discord"><a href="https://discordapp.com/users/491013863714586637/">Discord</a></div>
+					</div>
+				</section>
+				<div class="footer-info">
+					<div class="footer-date"> CREATED IN 2023</div>
+					<div class="git"><a href="https://github.com/Nasmeshkaa" target="_blank"> Github</a></div>
+					<div class="rs_school"><a href="https://rs.school/js-stage0/" target="_blank"> RS_SCHOOL </a> </div>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 
 </html>

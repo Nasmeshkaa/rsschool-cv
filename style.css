@@ -1,25 +1,281 @@
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1,h3 {
+	font-weight: inherit;
+	font-size: inherit;
+	margin: 0;
+}
+
 body {
-	font-size: 15px;
-	color: rgb(255, 255, 255)
+	background-color: #ffffff;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1000px;
+	display: flex;
+}
+
+.header-container {
+	position: relative;
+	width: 100%;
+	display: flex;
+	color: #ffffff;
+	text-transform: uppercase;
+	background-color: #005f76
+}
+
+.photo {
+	width: 30%;
+	display: flex;
+	overflow: hidden;
+}
+.header-photo {
+	width: 100%;
+}
+.header-content {
+	width: 70%;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.nav {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
  }
- body header {
-	font-size: 15px;
-	color: rgb(40, 20, 156);
-	text-align: center;
- }/*# sourceMappingURL=style.css.map */
- body aside {
-	 color: rgb(255, 57, 57);
-	 text-align: center;
+ .nav li a {
+	text-transform: uppercase;
+	color: rgb(63, 204, 255);
+	text-decoration: none;
+	padding: 5px 10px;
+	position: relative;
+	margin-right: 10px
  }
- #nav {
-	 color: rgb(146, 29, 172);
-	 font-size: 20px;
-	 text-align: center;
-	 
-  }
-  .content {
-	 background-color: rgb(183, 136, 136)
-  }
-  .news article h3 {
-	 font-size: 17px;
-  }
+ .nav li a:hover {
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	background-color: rgb(4, 46, 67);
+ }
+ .menu {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+ }
+ .info {
+	height: 40%;
+	display: flex;
+	padding-right: 20px;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+	background-color: #06d1ff;
+}
+
+.title {
+	font-weight: 600;
+	font-size: 45px;
+}
+
+.prof {
+	font-size: 25px;
+}
+.main-content {
+	display: flex;
+}
+.aside {
+	width: 280px;
+	padding: 20px 0 20px 20px;
+	background-color: #005f76;
+	color: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+
+.education-place {
+	font-size: 15px;
+}
+
+.education-prof {
+	font-size: 15px;
+	margin: 10px 0;
+}
+h2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: rgb(63, 204, 255);
+	margin: 10px 0;
+}
+.solo {
+	font-size: 15px;
+	margin: 5px 0;
+}
+.free {
+	font-size: 15px;
+	margin: 5px 0;
+}
+.rs {
+	font-size: 15px;
+	margin: 5px 0;
+}
+.skill-name {
+	margin: 5px 0;
+	font-size: 15px;
+}	
+.progress {
+	position: relative;
+	width: 250px;
+	height: 20px;
+	overflow: hidden;
+ }
+ .main {
+	width: 700px;
+	padding: 20px 30px;
+	background-color: #fff;
+	color: #000000;
+	display: flex;
+	flex-direction: column;
+}
+.main section {
+	margin-bottom: 20px
+}
+.about {
+		font-size: 18px;
+		font-weight: 400;
+		
+		margin-bottom: 20px;
+}
+.about-language {
+	margin: 0 0 10px 0;
+}
+.language-item {
+	font-size: 18px;
+	margin: 10px 0;
+}
+.code-example {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+}
+.code-example .pre {
+	margin: 0;
+	display: flex;
+	align-self: right;
+	width: 20%;
+}
+
+.footer-container {
+	background-color: #005f76;
+	display: flex;
+	flex-grow: 1;
+}
+
+.footer-info {
+	display: flex;
+	width: 70%;
+	height: 200px;
+	justify-content: space-around;
+}
+
+.git {
+	display: flex;
+	align-items: center;
+}
+.git a {
+	color: rgb(63, 204, 255);
+	text-decoration: none;
+	padding: 5px 0;
+	position: relative;
+	margin-right: 10px;
+}
+.git a:hover {
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	background-color: rgb(4, 46, 67);
+}
+.rs_school {
+	display: flex;
+	align-items: center;
+}
+.rs_school a {
+	color: rgb(63, 204, 255);
+	text-decoration: none;
+	padding: 5px 0;
+	position: relative;
+	width: 100px;
+}
+.rs_school a:hover {
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	background-color: rgb(4, 46, 67);
+}
+
+.footer-date {
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.contacts {
+	width: 30%;
+	background-color: #005f76;
+	padding: 0 0 0 30px;
+}
+
+.social {
+	font-size: 15px;
+	margin: 10px 0;
+	color: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: column;
+}
+.location {
+	margin: 10px 0;
+}
+.email {
+	margin: 10px 0;
+}
+.discord {
+	margin: 10px 0;
+}
+.email a {
+	color: rgb(63, 204, 255);
+	text-decoration: none;
+	padding: 5px 0;
+	position: relative;
+	margin-right: 10px;
+	width: 50px;
+}
+.discord a {
+	color: rgb(63, 204, 255);
+	text-decoration: none;
+	padding: 5px 0;
+	position: relative;
+	margin-right: 10px;
+	width: 50px;
+}
+.email a:hover {
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	background-color: rgb(4, 46, 67);
+}
+.discord a:hover {
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	background-color: rgb(4, 46, 67);
+}
